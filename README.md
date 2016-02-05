@@ -13,7 +13,7 @@ This exercise is a practice in merging files from other Git branches. We have a 
 
 ## Setup - DONT RUN ANY RAILS CONFIG COMMANDS
 
-For this repository into your own Github account. Then clone it to your machine, OUTSIDE of your `wdi/pluto` repo. This app is to be tracked separately from your work. Then view all of the branches on the origin remote. **DONT RUN ANY RAILS CONFIG COMMANDS YET(db:create, migrate, etc..).**
+Fork this repository into your own Github account. Then clone it to your machine, OUTSIDE of your `wdi/pluto` repo. This app is to be tracked separately from your work. Then view all of the branches on the origin remote. **DONT RUN ANY RAILS CONFIG COMMANDS YET(db:create, migrate, etc..).**
 
 ```bash
 git clone this_repo_ssh.git
@@ -42,7 +42,7 @@ Jeselin has added the `pry-rails` gem to the Gemfile in her branch `jeselins_gem
 
 Let's create a branch of the same name on our local repository so we can catch her changes.
 
-`git checkout -b jeselins_gems`
+`git checkout jeselins_gems`
 
 If you `git branch -a`, you'll see `jeselins_gems` is now green, and local to our machine. We can now inspect its changes.
 
